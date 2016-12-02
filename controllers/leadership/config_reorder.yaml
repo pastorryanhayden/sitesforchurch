@@ -1,0 +1,4 @@
+title: Leadership
+modelClass: Sfc\Sitesforchurch\Models\Leader
+toolbar:
+    buttons: reorder_toolbar

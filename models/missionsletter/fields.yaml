@@ -1,0 +1,24 @@
+fields:
+    date:
+        label: Date
+        oc.commentPosition: ''
+        mode: datetime
+        span: auto
+        type: datepicker
+    missionary:
+        label: Missionary
+        oc.commentPosition: ''
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        type: relation
+    download:
+        label: 'Letter File'
+        span: auto
+        oc.commentPosition: ''
+        mode: file
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        type: fileupload

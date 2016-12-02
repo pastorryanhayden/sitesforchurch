@@ -1,0 +1,16 @@
+columns:
+    title:
+        label: Title
+        type: text
+        searchable: true
+        sortable: true
+    date_preached:
+        label: Date
+        type: date
+        searchable: true
+        sortable: true
+    bible_text:
+        label: Text
+        type: text
+        searchable: true
+        sortable: true

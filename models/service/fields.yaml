@@ -1,0 +1,11 @@
+fields:
+    service_name:
+        label: 'Service Name'
+        span: auto
+        type: text
+        commentAbove: 'i.e. Sunday School'
+    service_time:
+        label: 'Service Time'
+        span: auto
+        type: text
+        commentAbove: 'i.e. 9:30 AM'

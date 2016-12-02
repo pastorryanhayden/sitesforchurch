@@ -1,0 +1,31 @@
+fields:
+    WelcomeSections:
+        label: 'Welcome Page Sections'
+        oc.commentPosition: ''
+        prompt: 'Add new item'
+        span: full
+        type: repeater
+        form:
+            fields:
+                section_title:
+                    label: Title
+                    oc.commentPosition: ''
+                    span: auto
+                    type: text
+                image:
+                    label: 'Section Image'
+                    oc.commentPosition: ''
+                    mode: file
+                    useCaption: true
+                    thumbOptions:
+                        mode: crop
+                        extension: auto
+                    span: left
+                    type: fileupload
+                section_content:
+                    label: 'Section Content'
+                    span: full
+                    size: large
+                    oc.commentPosition: ''
+                    mode: tab
+                    type: markdown

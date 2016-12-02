@@ -1,0 +1,191 @@
+plugin:
+    name: 'sfc.sitesforchurch::lang.plugin.name'
+    description: 'sfc.sitesforchurch::lang.plugin.description'
+    author: sitesforchurch
+    icon: oc-icon-institution
+    homepage: ''
+permissions:
+    everything:
+        tab: everything
+        label: everything
+navigation:
+    sermons:
+        label: Sermons
+        url: sfc/sitesforchurch/serrmons
+        icon: icon-microphone
+        permissions:
+            - everything
+        sideMenu:
+            sermons:
+                label: Sermons
+                url: sfc/sitesforchurch/serrmons
+                icon: icon-list
+                permissions:
+                    - everything
+            series:
+                label: Series
+                url: sfc/sitesforchurch/series
+                icon: icon-sitemap
+                permissions:
+                    - everything
+            speakers:
+                label: Speakers
+                url: sfc/sitesforchurch/speakers
+                icon: icon-users
+                permissions:
+                    - everything
+    events:
+        label: Events
+        url: sfc/sitesforchurch/events
+        icon: icon-calendar
+        permissions:
+            - everything
+        sideMenu:
+            events:
+                label: Events
+                url: sfc/sitesforchurch/events
+                icon: icon-list
+                permissions:
+                    - everything
+    ministries:
+        label: Ministries
+        url: sfc/sitesforchurch/ministries
+        icon: icon-users
+        permissions:
+            - everything
+        sideMenu:
+            ministries:
+                label: Ministries
+                url: sfc/sitesforchurch/ministries
+                icon: icon-list
+                permissions:
+                    - everything
+            ministryleaders:
+                label: 'Ministry Leaders'
+                url: sfc/sitesforchurch/ministryleader
+                icon: icon-user
+                permissions:
+                    - everything
+    galleries:
+        label: Galleries
+        url: sfc/sitesforchurch/galleries
+        icon: icon-photo
+        permissions:
+            - everything
+        sideMenu:
+            galleries:
+                label: Galleries
+                url: sfc/sitesforchurch/galleries
+                icon: icon-th-list
+    aboutus:
+        label: 'About Us'
+        url: sfc/sitesforchurch/beliefs
+        icon: icon-copy
+        permissions:
+            - everything
+        sideMenu:
+            beliefs:
+                label: Beliefs
+                url: sfc/sitesforchurch/beliefs
+                icon: icon-book
+                permissions:
+                    - everything
+            leadership:
+                label: Leadership
+                url: sfc/sitesforchurch/leadership
+                icon: icon-users
+                permissions:
+                    - everything
+            other-pages:
+                label: 'Other Pages'
+                url: sfc/sitesforchurch/otherpage
+                icon: icon-list
+                permissions:
+                    - everything
+            gospel:
+                label: 'Gospel Page'
+                url: sfc/sitesforchurch/gospel
+                icon: icon-ambulance
+                permissions:
+                    - everything
+    church-info:
+        label: 'Church Info'
+        url: sfc/sitesforchurch/maininfo
+        icon: icon-gears
+        permissions:
+            - everything
+        sideMenu:
+            main-info:
+                label: 'Main Info'
+                url: sfc/sitesforchurch/maininfo
+                icon: icon-tag
+                permissions:
+                    - everything
+            service-schedule:
+                label: 'Service Schedule'
+                url: sfc/sitesforchurch/serviceschedule
+                icon: icon-list-ol
+                permissions:
+                    - everything
+            contact-info:
+                label: 'Contact Info'
+                url: sfc/sitesforchurch/contactinfo
+                icon: icon-phone
+                permissions:
+                    - everything
+            location:
+                label: 'Location Info'
+                url: sfc/sitesforchurch/locationinfo
+                icon: icon-location-arrow
+                permissions:
+                    - everything
+    specialpages:
+        label: 'Special Pages'
+        url: sfc/sitesforchurch/homepage
+        icon: icon-star
+        permissions:
+            - everything
+        sideMenu:
+            homepage:
+                label: 'Home Page'
+                url: sfc/sitesforchurch/homepage
+                icon: icon-home
+                permissions:
+                    - everything
+            welcome-page:
+                label: 'Welcome Page Sections'
+                url: sfc/sitesforchurch/welcomesections
+                icon: icon-info
+                permissions:
+                    - everything
+            welcome-page-details:
+                label: 'Welcome Page Details'
+                url: sfc/sitesforchurch/welcomepage
+                icon: icon-info-circle
+                permissions:
+                    - everything
+            contact-page:
+                label: 'Contact Page'
+                url: sfc/sitesforchurch/contactpages
+                icon: icon-envelope
+                permissions:
+                    - everything
+    missions:
+        label: Missions
+        url: sfc/sitesforchurch/missionaries
+        icon: icon-globe
+        permissions:
+            - everything
+        sideMenu:
+            missionaries:
+                label: Missionaries
+                url: sfc/sitesforchurch/missionaries
+                icon: icon-list
+                permissions:
+                    - everything
+            letters:
+                label: Letters
+                url: sfc/sitesforchurch/letters
+                icon: icon-file-pdf-o
+                permissions:
+                    - everything

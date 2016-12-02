@@ -1,0 +1,4 @@
+columns:
+    welcome_heading:
+        label: Heading
+        type: text

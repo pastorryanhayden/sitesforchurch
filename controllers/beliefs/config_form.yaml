@@ -1,0 +1,10 @@
+name: Beliefs
+form: $/sfc/sitesforchurch/models/belief/fields.yaml
+modelClass: Sfc\Sitesforchurch\Models\Belief
+defaultRedirect: sfc/sitesforchurch/beliefs
+create:
+    redirect: 'sfc/sitesforchurch/beliefs/update/:id'
+    redirectClose: sfc/sitesforchurch/beliefs
+update:
+    redirect: sfc/sitesforchurch/beliefs
+    redirectClose: sfc/sitesforchurch/beliefs

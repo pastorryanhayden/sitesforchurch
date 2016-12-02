@@ -1,0 +1,10 @@
+columns:
+    gospel_heading:
+        label: Heading
+        type: text
+        searchable: true
+        sortable: true
+    gospel_content:
+        label: Content
+        type: text
+        searchable: true

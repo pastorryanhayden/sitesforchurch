@@ -1,0 +1,16 @@
+columns:
+    name:
+        label: Name
+        type: text
+        searchable: true
+        sortable: true
+    continent:
+        label: Contintent
+        type: text
+        searchable: true
+        sortable: true
+    field:
+        label: Field
+        type: text
+        searchable: true
+        sortable: true

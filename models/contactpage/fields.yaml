@@ -1,0 +1,13 @@
+fields:
+    contact_heading:
+        label: Heading
+        oc.commentPosition: ''
+        span: full
+        type: text
+    contact_content:
+        label: 'Page Content'
+        span: full
+        size: giant
+        oc.commentPosition: ''
+        mode: tab
+        type: markdown

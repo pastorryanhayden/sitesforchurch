@@ -1,0 +1,14 @@
+columns:
+    title:
+        label: Title
+        type: text
+        searchable: true
+        sortable: true
+    body_content:
+        label: Content
+        type: text
+        searchable: true
+    published:
+        label: Published
+        type: switch
+        searchable: true

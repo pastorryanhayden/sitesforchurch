@@ -1,0 +1,33 @@
+fields:
+    name:
+        label: Name
+        oc.commentPosition: ''
+        span: full
+        required: 1
+        type: text
+    phone:
+        label: 'Phone Number'
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    email:
+        label: Email
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    thumbnail:
+        label: Thumbnail
+        oc.commentPosition: ''
+        mode: file
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    bio:
+        label: Bio
+        size: small
+        oc.commentPosition: ''
+        span: full
+        type: textarea

@@ -1,0 +1,21 @@
+columns:
+    church_phone:
+        label: Phone
+        type: text
+        searchable: true
+    church_email:
+        label: Email
+        type: text
+        searchable: true
+    church_facebook:
+        label: Facebook
+        type: text
+        searchable: true
+    church_twitter:
+        label: Twitter
+        type: text
+        searchable: true
+    church_youtube:
+        label: YouTube
+        type: text
+        searchable: true

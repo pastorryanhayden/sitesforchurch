@@ -1,0 +1,37 @@
+fields:
+    title:
+        label: 'Page Title'
+        oc.commentPosition: ''
+        span: auto
+        required: 1
+        type: text
+    slug:
+        label: Slug
+        oc.commentPosition: ''
+        span: auto
+        required: 1
+        preset:
+            field: title
+            type: slug
+        type: text
+    published:
+        label: published
+        span: full
+        type: switch
+    featured_image:
+        label: 'Featured Image'
+        oc.commentPosition: ''
+        mode: file
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    body_content:
+        label: 'Page Content'
+        span: full
+        size: giant
+        oc.commentPosition: ''
+        mode: tab
+        type: markdown

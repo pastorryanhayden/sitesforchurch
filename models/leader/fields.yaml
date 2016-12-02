@@ -1,0 +1,36 @@
+fields:
+    leader_name:
+        label: Name
+        oc.commentPosition: ''
+        span: auto
+        required: 1
+        type: text
+    position:
+        label: Position
+        oc.commentPosition: ''
+        span: auto
+        placeholder: 'i.e. Youth Pastor'
+        required: 1
+        type: text
+    is_senior_pastor:
+        label: 'Senior Pastor?'
+        span: auto
+        type: switch
+        comment: 'The Senior Pastor will get special styles on the page.'
+    body_content:
+        label: Bio
+        size: large
+        oc.commentPosition: ''
+        span: full
+        required: 1
+        type: textarea
+    photo:
+        label: Photo
+        oc.commentPosition: ''
+        mode: file
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: full
+        type: fileupload

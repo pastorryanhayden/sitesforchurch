@@ -1,0 +1,11 @@
+columns:
+    name:
+        label: 'Ministry Name'
+        type: text
+        searchable: true
+        sortable: true
+    group:
+        label: Group
+        type: text
+        searchable: true
+        sortable: true

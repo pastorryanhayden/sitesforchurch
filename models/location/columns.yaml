@@ -1,0 +1,28 @@
+columns:
+    church_street:
+        label: Street
+        type: text
+        searchable: true
+        sortable: true
+    church_street2:
+        label: 'Street 2'
+        type: text
+        searchable: true
+        sortable: false
+    church_city:
+        label: City
+        type: text
+        searchable: true
+        sortable: false
+    church_state:
+        label: State
+        type: text
+        searchable: true
+    church_zip:
+        label: Zip
+        type: text
+        searchable: true
+    church_google_maps_embed:
+        label: 'Google Embed'
+        type: text
+        searchable: true

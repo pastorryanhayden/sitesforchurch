@@ -1,0 +1,10 @@
+name: MainInfo
+form: $/sfc/sitesforchurch/models/maininfo/fields.yaml
+modelClass: Sfc\Sitesforchurch\Models\MainInfo
+defaultRedirect: sfc/sitesforchurch/maininfo
+create:
+    redirect: 'sfc/sitesforchurch/maininfo/update/:id'
+    redirectClose: sfc/sitesforchurch/maininfo
+update:
+    redirect: sfc/sitesforchurch/maininfo
+    redirectClose: sfc/sitesforchurch/maininfo

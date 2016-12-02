@@ -1,0 +1,10 @@
+name: Galleries
+form: $/sfc/sitesforchurch/models/gallery/fields.yaml
+modelClass: Sfc\Sitesforchurch\Models\Gallery
+defaultRedirect: sfc/sitesforchurch/galleries
+create:
+    redirect: 'sfc/sitesforchurch/galleries/update/:id'
+    redirectClose: sfc/sitesforchurch/galleries
+update:
+    redirect: sfc/sitesforchurch/galleries
+    redirectClose: sfc/sitesforchurch/galleries

@@ -1,0 +1,26 @@
+fields:
+    church_phone:
+        label: 'Church Phone Number'
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    church_email:
+        label: 'Church Email'
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    church_facebook:
+        label: Facebook
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    church_twitter:
+        label: Twitter
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    church_youtube:
+        label: YouTube
+        span: auto
+        oc.commentPosition: ''
+        type: text

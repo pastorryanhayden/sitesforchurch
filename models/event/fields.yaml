@@ -1,0 +1,59 @@
+fields:
+    event_name:
+        label: 'Event Name'
+        oc.commentPosition: ''
+        span: auto
+        required: 1
+        type: text
+    slug:
+        label: Slug
+        oc.commentPosition: ''
+        span: auto
+        required: 1
+        preset:
+            field: event_name
+            type: slug
+        type: text
+    published:
+        label: Published
+        span: auto
+        type: switch
+    datetime:
+        label: 'Date and Time'
+        oc.commentPosition: ''
+        mode: datetime
+        span: full
+        type: datepicker
+    description:
+        label: Description
+        size: small
+        oc.commentPosition: ''
+        span: full
+        type: textarea
+    featured_image:
+        label: 'Featured Image'
+        oc.commentPosition: ''
+        mode: file
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    ministry:
+        label: Ministry
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        type: relation
+        commentAbove: 'Optional: Select the ministry group for this event.'
+tabs:
+    fields:
+        body_content:
+            label: '(Optional) Full Text'
+            size: huge
+            mode: tab
+            span: full
+            type: markdown
+            commentAbove: 'Turn the event into a full fledged page by adding Markdown Content Here'
+            tab: Text

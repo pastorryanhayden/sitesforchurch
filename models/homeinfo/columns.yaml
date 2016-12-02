@@ -1,0 +1,7 @@
+columns:
+    home_intro_heading:
+        label: Heading
+        type: text
+    home_intro_text:
+        label: Text
+        type: text

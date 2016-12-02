@@ -1,0 +1,10 @@
+name: Speakers
+form: $/sfc/sitesforchurch/models/speaker/fields.yaml
+modelClass: Sfc\Sitesforchurch\Models\Speaker
+defaultRedirect: sfc/sitesforchurch/speakers
+create:
+    redirect: 'sfc/sitesforchurch/speakers/update/:id'
+    redirectClose: sfc/sitesforchurch/speakers
+update:
+    redirect: sfc/sitesforchurch/speakers
+    redirectClose: sfc/sitesforchurch/speakers

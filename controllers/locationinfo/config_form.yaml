@@ -1,0 +1,10 @@
+name: Locationinfo
+form: $/sfc/sitesforchurch/models/location/fields.yaml
+modelClass: Sfc\Sitesforchurch\Models\Location
+defaultRedirect: sfc/sitesforchurch/locationinfo
+create:
+    redirect: 'sfc/sitesforchurch/locationinfo/update/:id'
+    redirectClose: sfc/sitesforchurch/locationinfo
+update:
+    redirect: sfc/sitesforchurch/locationinfo
+    redirectClose: sfc/sitesforchurch/locationinfo

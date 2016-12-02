@@ -1,0 +1,15 @@
+columns:
+    title:
+        label: Title
+        type: text
+        searchable: true
+        sortable: true
+    content:
+        label: Description
+        type: text
+        searchable: true
+        sortable: false
+    icon:
+        label: Icon
+        type: text
+        searchable: true

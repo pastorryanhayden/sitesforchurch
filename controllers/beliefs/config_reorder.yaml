@@ -1,0 +1,4 @@
+title: Beliefs
+modelClass: Sfc\Sitesforchurch\Models\Belief
+toolbar:
+    buttons: reorder_toolbar

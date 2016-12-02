@@ -1,0 +1,20 @@
+fields:
+    title:
+        label: Title
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    icon:
+        label: Icon
+        oc.commentPosition: ''
+        options:
+            users: fa-users
+        span: auto
+        type: dropdown
+    content:
+        label: Content
+        size: large
+        oc.commentPosition: ''
+        mode: tab
+        span: full
+        type: markdown

@@ -1,0 +1,11 @@
+columns:
+    date:
+        label: Date
+        type: date
+        searchable: true
+        sortable: true
+    missionary:
+        label: Missionary
+        type: text
+        searchable: true
+        sortable: true

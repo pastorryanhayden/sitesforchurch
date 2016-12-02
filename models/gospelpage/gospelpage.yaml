@@ -1,0 +1,24 @@
+fields:
+    gospel_heading:
+        label: Text
+        oc.commentPosition: ''
+        span: auto
+        required: 1
+        type: text
+    gospel_featured_image:
+        label: 'Featured Image'
+        oc.commentPosition: ''
+        mode: file
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: full
+        type: fileupload
+    gospel_content:
+        label: Content
+        span: full
+        size: giant
+        oc.commentPosition: ''
+        mode: tab
+        type: markdown

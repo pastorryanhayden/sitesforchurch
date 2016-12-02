@@ -1,0 +1,14 @@
+title: Serrmons
+modelClass: Sfc\Sitesforchurch\Models\Sermon
+list: $/sfc/sitesforchurch/models/sermon/columns.yaml
+recordUrl: 'sfc/sitesforchurch/serrmons/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+defaultSort:
+    column: date
+    direction: desc
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

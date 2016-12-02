@@ -1,0 +1,10 @@
+name: Welcomesections
+form: $/sfc/sitesforchurch/models/welcomesection/fields.yaml
+modelClass: Sfc\Sitesforchurch\Models\Welcomesection
+defaultRedirect: sfc/sitesforchurch/welcomesections
+create:
+    redirect: 'sfc/sitesforchurch/welcomesections/update/:id'
+    redirectClose: sfc/sitesforchurch/welcomesections
+update:
+    redirect: sfc/sitesforchurch/welcomesections
+    redirectClose: sfc/sitesforchurch/welcomesections

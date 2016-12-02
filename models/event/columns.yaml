@@ -1,0 +1,16 @@
+columns:
+    event_name:
+        label: Name
+        type: text
+        searchable: true
+        sortable: true
+    datetime:
+        label: 'Date and Time'
+        type: datetime
+        searchable: true
+        sortable: true
+    description:
+        label: Description
+        type: text
+        searchable: true
+        sortable: true

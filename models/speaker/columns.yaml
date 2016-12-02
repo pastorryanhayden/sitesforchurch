@@ -1,0 +1,15 @@
+columns:
+    name:
+        label: Name
+        type: text
+        searchable: true
+        sortable: true
+    bio:
+        label: Bio
+        type: text
+        searchable: true
+        sortable: true
+    email:
+        label: 'Email Address'
+        type: text
+        searchable: true

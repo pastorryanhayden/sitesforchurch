@@ -1,0 +1,10 @@
+name: Contactinfo
+form: $/sfc/sitesforchurch/models/contact/fields.yaml
+modelClass: Sfc\Sitesforchurch\Models\Contact
+defaultRedirect: sfc/sitesforchurch/contactinfo
+create:
+    redirect: 'sfc/sitesforchurch/contactinfo/update/:id'
+    redirectClose: sfc/sitesforchurch/contactinfo
+update:
+    redirect: sfc/sitesforchurch/contactinfo
+    redirectClose: sfc/sitesforchurch/contactinfo

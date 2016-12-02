@@ -1,0 +1,11 @@
+columns:
+    service_name:
+        label: 'Service Name'
+        type: text
+        searchable: true
+        sortable: true
+    service_time:
+        label: 'Service Time'
+        type: text
+        searchable: true
+        sortable: true

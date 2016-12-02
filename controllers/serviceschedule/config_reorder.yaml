@@ -1,0 +1,4 @@
+title: ServiceSchedule
+modelClass: Sfc\Sitesforchurch\Models\Service
+toolbar:
+    buttons: reorder_toolbar

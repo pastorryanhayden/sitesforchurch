@@ -1,0 +1,10 @@
+name: ServiceSchedule
+form: $/sfc/sitesforchurch/models/service/fields.yaml
+modelClass: Sfc\Sitesforchurch\Models\Service
+defaultRedirect: sfc/sitesforchurch/serviceschedule
+create:
+    redirect: 'sfc/sitesforchurch/serviceschedule/update/:id'
+    redirectClose: sfc/sitesforchurch/serviceschedule
+update:
+    redirect: sfc/sitesforchurch/serviceschedule
+    redirectClose: sfc/sitesforchurch/serviceschedule

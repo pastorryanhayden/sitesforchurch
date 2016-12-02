@@ -1,0 +1,4 @@
+title: Otherpage
+modelClass: Sfc\Sitesforchurch\Models\AboutPage
+toolbar:
+    buttons: reorder_toolbar

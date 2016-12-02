@@ -1,0 +1,41 @@
+fields:
+    title:
+        label: Title
+        oc.commentPosition: ''
+        span: auto
+        required: 1
+        type: text
+    published:
+        label: Published
+        span: full
+        type: switch
+    date_added:
+        label: Date
+        span: auto
+        oc.commentPosition: ''
+        mode: date
+        type: datepicker
+    gallery:
+        label: 'Add Images Here'
+        oc.commentPosition: ''
+        mode: file
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: full
+        type: fileupload
+    ministry:
+        label: '(Optional) Is this related to a ministry?'
+        oc.commentPosition: ''
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        type: relation
+    event:
+        label: '(optional) Is this related to an event?'
+        oc.commentPosition: ''
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        type: relation

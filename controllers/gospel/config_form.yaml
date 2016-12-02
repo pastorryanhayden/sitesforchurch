@@ -1,0 +1,10 @@
+name: Gospel
+form: $/sfc/sitesforchurch/models/gospelpage/gospelpage.yaml
+modelClass: Sfc\Sitesforchurch\Models\GospelPage
+defaultRedirect: sfc/sitesforchurch/gospel
+create:
+    redirect: 'sfc/sitesforchurch/gospel/update/:id'
+    redirectClose: sfc/sitesforchurch/gospel
+update:
+    redirect: sfc/sitesforchurch/gospel
+    redirectClose: sfc/sitesforchurch/gospel

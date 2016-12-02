@@ -1,0 +1,11 @@
+title: Series
+modelClass: Sfc\Sitesforchurch\Models\Series
+list: $/sfc/sitesforchurch/models/series/columns.yaml
+recordUrl: 'sfc/sitesforchurch/series/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

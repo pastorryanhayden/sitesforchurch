@@ -1,0 +1,10 @@
+name: Otherpage
+form: $/sfc/sitesforchurch/models/aboutpage/fields.yaml
+modelClass: Sfc\Sitesforchurch\Models\AboutPage
+defaultRedirect: sfc/sitesforchurch/otherpage
+create:
+    redirect: 'sfc/sitesforchurch/otherpage/update/:id'
+    redirectClose: sfc/sitesforchurch/otherpage
+update:
+    redirect: sfc/sitesforchurch/otherpage
+    redirectClose: sfc/sitesforchurch/otherpage

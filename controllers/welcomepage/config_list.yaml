@@ -1,0 +1,11 @@
+list: $/sfc/sitesforchurch/models/welcomeinfo/columns.yaml
+modelClass: Sfc\Sitesforchurch\Models\WelcomeInfo
+title: Welcomepage
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'sfc/sitesforchurch/welcomepage/update/:id'

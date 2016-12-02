@@ -1,0 +1,11 @@
+name: Serrmons
+modelClass: Sfc\Sitesforchurch\Models\Sermon
+form: $/sfc/sitesforchurch/models/sermon/fields.yaml
+defaultRedirect: sfc/sitesforchurch/serrmons
+create:
+    redirect: 'sfc/sitesforchurch/serrmons/update/:id'
+    redirectClose: sfc/sitesforchurch/serrmons
+update:
+    redirect: sfc/sitesforchurch/serrmons
+    redirectClose: sfc/sitesforchurch/serrmons
+preview: {  }

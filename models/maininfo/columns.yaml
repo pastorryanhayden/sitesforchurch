@@ -1,0 +1,10 @@
+columns:
+    church_name:
+        label: 'Church Name'
+        type: text
+        searchable: true
+        sortable: true
+    church_tagline:
+        label: Tagline
+        type: text
+        searchable: true

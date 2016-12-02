@@ -1,0 +1,16 @@
+fields:
+    welcome_heading:
+        label: 'Page Heading'
+        oc.commentPosition: ''
+        span: full
+        type: text
+    welcome_featured_image:
+        label: 'Featured Image'
+        span: full
+        oc.commentPosition: ''
+        mode: file
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        type: fileupload

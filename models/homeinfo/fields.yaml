@@ -1,0 +1,123 @@
+fields:
+    home_intro_heading:
+        label: 'Intro Heading'
+        size: small
+        oc.commentPosition: ''
+        span: auto
+        type: textarea
+    home_intro_text:
+        label: 'Intro Text'
+        size: small
+        oc.commentPosition: ''
+        span: auto
+        type: textarea
+    home_main_image:
+        label: 'Main Image'
+        oc.commentPosition: ''
+        mode: file
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: full
+        type: fileupload
+tabs:
+    fields:
+        home_page_features:
+            label: 'Home Page Features'
+            span: full
+            type: section
+            comment: 'Some of our themes have three featured links on the home page.  This is where those are controlled.  If you are not using one of those themes you do not need to worry about this section.'
+            tab: 'Main Sections'
+secondaryTabs:
+    fields:
+        home_link1_text:
+            label: Text
+            oc.commentPosition: ''
+            span: auto
+            type: text
+            tab: 'Feature 1'
+        home_link1_description:
+            label: Description
+            size: ''
+            oc.commentPosition: ''
+            span: auto
+            type: textarea
+            tab: 'Feature 1'
+        home_link1_url:
+            label: 'Link URL'
+            oc.commentPosition: ''
+            span: auto
+            type: text
+            tab: 'Feature 1'
+        home_link1_image:
+            label: Image
+            oc.commentPosition: ''
+            mode: file
+            useCaption: true
+            thumbOptions:
+                mode: crop
+                extension: auto
+            span: full
+            type: fileupload
+            tab: 'Feature 1'
+        home_link2_text:
+            label: Text
+            oc.commentPosition: ''
+            span: auto
+            type: text
+            tab: 'Feature 2'
+        home_link2_description:
+            label: Description
+            size: ''
+            oc.commentPosition: ''
+            span: auto
+            type: textarea
+            tab: 'Feature 2'
+        home_link2_url:
+            label: 'Link URL'
+            oc.commentPosition: ''
+            span: auto
+            type: text
+            tab: 'Feature 2'
+        home_link2_image:
+            label: Image
+            oc.commentPosition: ''
+            mode: file
+            useCaption: true
+            thumbOptions:
+                mode: crop
+                extension: auto
+            span: full
+            type: fileupload
+            tab: 'Feature 2'
+        home_link3_text:
+            label: Text
+            oc.commentPosition: ''
+            span: auto
+            type: text
+            tab: 'Feature 3'
+        home_link3_description:
+            label: Description
+            size: ''
+            oc.commentPosition: ''
+            span: auto
+            type: textarea
+            tab: 'Feature 3'
+        home_link3_url:
+            label: 'Link URL'
+            oc.commentPosition: ''
+            span: auto
+            type: text
+            tab: 'Feature 3'
+        home_link3_image:
+            label: Image
+            span: full
+            oc.commentPosition: ''
+            mode: file
+            useCaption: true
+            thumbOptions:
+                mode: crop
+                extension: auto
+            type: fileupload
+            tab: 'Feature 3'

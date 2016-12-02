@@ -1,0 +1,10 @@
+name: Leadership
+form: $/sfc/sitesforchurch/models/leader/fields.yaml
+modelClass: Sfc\Sitesforchurch\Models\Leader
+defaultRedirect: sfc/sitesforchurch/leadership
+create:
+    redirect: 'sfc/sitesforchurch/leadership/update/:id'
+    redirectClose: sfc/sitesforchurch/leadership
+update:
+    redirect: sfc/sitesforchurch/leadership
+    redirectClose: sfc/sitesforchurch/leadership

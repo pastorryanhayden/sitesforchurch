@@ -1,0 +1,94 @@
+fields:
+    name:
+        label: 'Ministry Name'
+        oc.commentPosition: ''
+        span: auto
+        required: 1
+        type: text
+    slug:
+        label: Slug
+        oc.commentPosition: ''
+        span: auto
+        required: 1
+        preset:
+            field: name
+            type: slug
+        type: text
+    published:
+        label: Published
+        span: auto
+        type: switch
+    show_in_menus:
+        label: 'Show In Menus'
+        span: auto
+        type: checkbox
+    show_on_home_page:
+        label: 'Show On Home Page'
+        span: auto
+        type: checkbox
+    group:
+        label: 'Who Is This Ministry For?'
+        oc.commentPosition: ''
+        span: full
+        placeholder: 'i.e. Senior Saints'
+        required: 1
+        type: text
+    meeting_time:
+        label: 'Meeting Time'
+        oc.commentPosition: ''
+        span: auto
+        placeholder: 'i.e. First monday of the month at 6:00 PM'
+        type: text
+    meeting_place:
+        label: 'Meeting Place'
+        oc.commentPosition: ''
+        span: auto
+        placeholder: 'i.e. The Fellowship Hall'
+        type: text
+    description:
+        label: 'Short Description'
+        size: small
+        oc.commentPosition: ''
+        span: full
+        required: 1
+        type: textarea
+    leader:
+        label: Leader
+        oc.commentPosition: ''
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        type: relation
+tabs:
+    fields:
+        header_image:
+            label: 'Header Image'
+            mode: file
+            useCaption: true
+            thumbOptions:
+                mode: crop
+                extension: auto
+            span: full
+            required: 1
+            type: fileupload
+            commentAbove: 'This spans the top of the page and in some themes appears on the home page.'
+            tab: Images
+        logo:
+            label: Logo
+            mode: file
+            useCaption: true
+            thumbOptions:
+                mode: crop
+                extension: auto
+            span: full
+            type: fileupload
+            commentAbove: 'This is totally optional.'
+            tab: Images
+        body_content:
+            label: 'Content of Full Page'
+            span: full
+            size: huge
+            mode: tab
+            type: markdown
+            commentAbove: 'Use Markdown Here'
+            tab: 'Full Text'

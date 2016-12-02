@@ -1,0 +1,44 @@
+fields:
+    name:
+        label: Name
+        oc.commentPosition: ''
+        span: auto
+        required: 1
+        type: text
+    field:
+        label: 'Missions Field'
+        oc.commentPosition: ''
+        span: left
+        required: 1
+        type: text
+    continent:
+        label: Continent
+        oc.commentPosition: ''
+        options:
+            Africa: Africa
+            Asia: Asia
+            'North America': 'North America'
+            'South America': 'South America'
+            Europe: Europe
+            'Islands of the Sea': 'Islands of the Sea'
+            Australia: Australia
+            Other/NA: Other/NA
+        span: full
+        required: 1
+        type: radio
+    body_content:
+        label: Content
+        size: large
+        oc.commentPosition: ''
+        span: full
+        type: textarea
+    photo:
+        label: Photo
+        oc.commentPosition: ''
+        mode: file
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload

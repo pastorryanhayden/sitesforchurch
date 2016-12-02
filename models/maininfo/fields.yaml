@@ -1,0 +1,31 @@
+fields:
+    church_name:
+        label: 'Church Name'
+        oc.commentPosition: ''
+        span: full
+        type: text
+    church_tagline:
+        label: 'Church Tagline'
+        oc.commentPosition: ''
+        span: full
+        type: text
+    church_logo:
+        label: 'Church Logo'
+        oc.commentPosition: ''
+        mode: file
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    church_logo_dark:
+        label: 'Church Logo (Dark Version)'
+        span: auto
+        oc.commentPosition: ''
+        mode: file
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        type: fileupload

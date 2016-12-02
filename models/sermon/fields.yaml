@@ -1,0 +1,109 @@
+fields:
+    title:
+        label: 'Sermon Title'
+        oc.commentPosition: ''
+        span: auto
+        required: 1
+        type: text
+    slug:
+        label: Slug
+        oc.commentPosition: ''
+        span: auto
+        required: 1
+        preset:
+            field: title
+            type: slug
+        type: text
+    date:
+        label: 'Date preached'
+        oc.commentPosition: ''
+        mode: date
+        span: auto
+        required: 1
+        type: datepicker
+    service:
+        label: Service
+        oc.commentPosition: ''
+        options:
+            'Sunday Morning': 'Sunday Morning'
+            'Sunday Evening': 'Sunday Evening'
+            'Midweek Service': 'Midweek Service'
+            'Special Meeting': 'Special Meeting'
+            'Sunday School': 'Sunday School'
+            Other: Other
+        span: auto
+        required: 1
+        type: radio
+    bible_text:
+        label: 'Bible Text'
+        oc.commentPosition: ''
+        span: auto
+        hidden: 0
+        required: 1
+        type: text
+    speaker:
+        label: Speaker
+        oc.commentPosition: ''
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        required: 1
+        type: relation
+    short_description:
+        label: 'Short Description'
+        size: small
+        oc.commentPosition: ''
+        span: full
+        type: textarea
+tabs:
+    fields:
+        mp3:
+            label: 'Audio File'
+            oc.commentPosition: ''
+            mode: file
+            useCaption: true
+            thumbOptions:
+                mode: crop
+                extension: auto
+            span: left
+            type: fileupload
+            tab: Media
+        slides:
+            label: Slides
+            oc.commentPosition: ''
+            mode: file
+            useCaption: true
+            thumbOptions:
+                mode: crop
+                extension: auto
+            span: left
+            type: fileupload
+            tab: Media
+        handout:
+            label: Handout
+            oc.commentPosition: ''
+            mode: file
+            useCaption: true
+            thumbOptions:
+                mode: crop
+                extension: auto
+            span: auto
+            type: fileupload
+            tab: Media
+        series:
+            label: Series
+            oc.commentPosition: ''
+            nameFrom: name
+            descriptionFrom: description
+            span: auto
+            required: 1
+            type: relation
+            tab: Series
+        body_content:
+            label: 'Sermon Text'
+            span: full
+            size: giant
+            mode: tab
+            type: markdown
+            comment: 'Optionally add your sermon manuscript or a long description in Markdown.'
+            tab: Text

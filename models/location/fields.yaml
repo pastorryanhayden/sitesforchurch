@@ -1,0 +1,32 @@
+fields:
+    church_street:
+        label: 'Street Address 1'
+        oc.commentPosition: ''
+        span: full
+        type: text
+    church_street2:
+        label: 'Street Address 2'
+        oc.commentPosition: ''
+        span: full
+        type: text
+    church_city:
+        label: City
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    church_state:
+        label: State
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    church_zip:
+        label: Zip
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    church_google_maps_embed:
+        label: 'Google Maps Embed'
+        span: full
+        size: ''
+        oc.commentPosition: ''
+        type: textarea

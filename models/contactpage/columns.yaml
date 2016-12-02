@@ -1,0 +1,11 @@
+columns:
+    contact_heading:
+        label: Heading
+        type: text
+        searchable: true
+        sortable: true
+    contact_content:
+        label: Content
+        type: text
+        searchable: true
+        sortable: true

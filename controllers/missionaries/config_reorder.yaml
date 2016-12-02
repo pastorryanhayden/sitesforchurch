@@ -1,0 +1,4 @@
+title: Missionaries
+modelClass: Sfc\Sitesforchurch\Models\Missionary
+toolbar:
+    buttons: reorder_toolbar

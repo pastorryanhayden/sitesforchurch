@@ -1,0 +1,10 @@
+name: Homepage
+form: $/sfc/sitesforchurch/models/homeinfo/fields.yaml
+modelClass: Sfc\Sitesforchurch\Models\HomeInfo
+defaultRedirect: sfc/sitesforchurch/homepage
+create:
+    redirect: 'sfc/sitesforchurch/homepage/update/:id'
+    redirectClose: sfc/sitesforchurch/homepage
+update:
+    redirect: sfc/sitesforchurch/homepage
+    redirectClose: sfc/sitesforchurch/homepage

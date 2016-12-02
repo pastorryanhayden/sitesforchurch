@@ -1,0 +1,10 @@
+name: Welcomepage
+form: $/sfc/sitesforchurch/models/welcomeinfo/fields.yaml
+modelClass: Sfc\Sitesforchurch\Models\WelcomeInfo
+defaultRedirect: sfc/sitesforchurch/welcomepage
+create:
+    redirect: 'sfc/sitesforchurch/welcomepage/update/:id'
+    redirectClose: sfc/sitesforchurch/welcomepage
+update:
+    redirect: sfc/sitesforchurch/welcomepage
+    redirectClose: sfc/sitesforchurch/welcomepage

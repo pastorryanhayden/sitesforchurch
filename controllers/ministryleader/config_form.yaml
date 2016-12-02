@@ -1,0 +1,10 @@
+name: Ministryleader
+form: $/sfc/sitesforchurch/models/ministryleader/fields.yaml
+modelClass: Sfc\Sitesforchurch\Models\MinistryLeader
+defaultRedirect: sfc/sitesforchurch/ministryleader
+create:
+    redirect: 'sfc/sitesforchurch/ministryleader/update/:id'
+    redirectClose: sfc/sitesforchurch/ministryleader
+update:
+    redirect: sfc/sitesforchurch/ministryleader
+    redirectClose: sfc/sitesforchurch/ministryleader

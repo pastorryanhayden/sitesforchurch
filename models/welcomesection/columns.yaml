@@ -1,0 +1,10 @@
+columns:
+    section_title:
+        label: Title
+        type: text
+        searchable: true
+        sortable: true
+    section_content:
+        label: Content
+        type: text
+        searchable: true
